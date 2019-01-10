@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package wolfwere;
+
+message silver_water{
+  repeated int64 target_id = 1;
+}
+
+message golden_water{
+  repeated int64 target_id = 1;
+}
+
+message guard_protect{
+  repeated int64 target_id = 1;
+}
+
+message package{
+  repeated 
+}
